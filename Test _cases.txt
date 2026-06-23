@@ -1,0 +1,42 @@
+Case 1:Customer Information Extraction
+
+Input:
+"Hi, my name is John Smith. My email is johnsmith@gmail.com
+and my phone number is +1-234-567-8901. I live in Chicago."
+
+Output:
+{
+"name": "John Smith",
+"email": "johnsmith@gmail.com",
+"phone": "+1-234-567-8901",
+"city": "Chicago"
+}
+
+Case 2:Product Information Extraction
+
+Input:
+
+"Product Name: Smart Watch
+Price: $99
+Category: Wearable Technology"
+
+Output:
+{
+"product_name": "Smart Watch",
+"price": 99,
+"category": "Wearable Technology"
+}
+
+Case 3: Order Information Extraction
+
+Input:
+
+"Order #B2050 was placed by Fatima Ali. She purchased 5 units of Wireless Earbuds."
+
+Output:
+{
+"order_id": "B2050",
+"customer_name": "Fatima Ali",
+"product": "Wireless Earbuds",
+"quantity": 5
+}
