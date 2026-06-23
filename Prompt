@@ -1,0 +1,61 @@
+Example 1:Customer Information Extraction
+
+You are a data extraction system.
+Extract the customer's name, email, phone number, and city from the text below.
+Return ONLY valid JSON. Do not include explanations.
+
+Input:
+"Hello, my name is Sarah Johnson.You can contact me at sarahjohnson@email.com or 
+call me at +1-555-123-4567.I currently live in New York."
+
+Output Formay:
+{
+"name": "",
+"email": "",
+"phone": "",
+"city": ""
+}
+
+Example 2:Few-Shot Product Data Extraction
+
+Extract product details and return only valid JSON.
+
+Example Input:
+"Product: Wireless Mouse
+Price: $25
+Category: Electronics"
+
+Example Output:
+{
+"product_name": "Wireless Mouse",
+"price": 25,
+"category": "Electronics"
+}
+
+Now process the following:
+"Product: Bluetooth Speaker
+Price: $45
+Category: Audio Devices
+"
+
+Example 3:Zero-shot Order Information Extraction
+You are an AI assistant specialized in extracting order details.
+
+Extract the following fields:
+• Order ID
+• Customer Name
+• Product
+• Quantity
+Return ONLY valid JSON.
+
+Input:
+"Order #A1025 was placed by Ahmed Khan. He purchased 3 units of USB Flash Drive.
+"
+
+Output Format:
+{
+"order_id": "",
+"customer_name": "",
+"product": "",
+"quantity": 0
+}
