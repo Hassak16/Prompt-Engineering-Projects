@@ -1,1 +1,1 @@
-# Prompt-Engineering-Projects 1
+# Prompt-Engineering-Project 1
